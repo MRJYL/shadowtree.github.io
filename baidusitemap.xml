@@ -3,10 +3,26 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2017/06/20/%E5%9C%A8Mac%E4%B8%8B%E9%80%9A%E8%BF%87HEXO%E5%9C%A8Github%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2017-06-23T15:50:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>在Mac下通过Hexo在Github上搭建博客</title>
+        <pubTime>2017-06-19T22:49:47.000Z</pubTime>
+        
+        <tag>Blog</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://yoursite.com/2017/06/20/%E5%89%8D%E8%AE%B0/</loc>
-    <lastmod>2017-06-22T11:05:35.000Z</lastmod>
+    <lastmod>2017-06-23T15:42:32.000Z</lastmod>
     <data>
         <display>
         <title>前记</title>
@@ -14,23 +30,13 @@
         
          
            
+             
+              <breadCrumb title="Diary" url="http://yoursite.com/categories/Diary/"/>
+          
         </display>
     </data>
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2017/06/20/%E5%9C%A8Mac%E4%B8%8B%E9%80%9A%E8%BF%87HEXO%E5%9C%A8Github%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2017-06-22T08:05:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>在Mac下通过Hexo在Github上搭建博客</title>
-        <pubTime>2017-06-19T22:49:47.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
 </urlset>

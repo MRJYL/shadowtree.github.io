@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Blog," />
 
 
 
@@ -94,12 +94,13 @@
 
 
 <meta name="description" content="经过一番折腾，总算是把Hexo给弄好了。在这期间遇到了各种问题，网上有的教程也有点老了，这里就再写一篇。最新的教程可以去Hexo官网查看。 前期准备安装XcodeHexo的编译可能依赖Xcode。这个直接从App Store上下载就好了，没什么难度。 安装node.jsHexo是基于node.js的，所以要去官网上下载下来安装。版本可以选择稳定版(4.3.1)也可以选择最新版(5.7.0)。需要注">
+<meta name="keywords" content="Blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在Mac下通过Hexo在Github上搭建博客">
 <meta property="og:url" content="http://yoursite.com/2017/06/20/在Mac下通过HEXO在Github上搭建博客/index.html">
 <meta property="og:site_name" content="Mr.King&#39;s Blog">
 <meta property="og:description" content="经过一番折腾，总算是把Hexo给弄好了。在这期间遇到了各种问题，网上有的教程也有点老了，这里就再写一篇。最新的教程可以去Hexo官网查看。 前期准备安装XcodeHexo的编译可能依赖Xcode。这个直接从App Store上下载就好了，没什么难度。 安装node.jsHexo是基于node.js的，所以要去官网上下载下来安装。版本可以选择稳定版(4.3.1)也可以选择最新版(5.7.0)。需要注">
-<meta property="og:updated_time" content="2017-06-22T08:05:49.000Z">
+<meta property="og:updated_time" content="2017-06-23T15:50:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在Mac下通过Hexo在Github上搭建博客">
 <meta name="twitter:description" content="经过一番折腾，总算是把Hexo给弄好了。在这期间遇到了各种问题，网上有的教程也有点老了，这里就再写一篇。最新的教程可以去Hexo官网查看。 前期准备安装XcodeHexo的编译可能依赖Xcode。这个直接从App Store上下载就好了，没什么难度。 安装node.jsHexo是基于node.js的，所以要去官网上下载下来安装。版本可以选择稳定版(4.3.1)也可以选择最新版(5.7.0)。需要注">
@@ -110,7 +111,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Muse',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -223,6 +224,16 @@
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
           </a>
         </li>
       
@@ -403,6 +414,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Blog/" rel="tag"># Blog</a>
+          
+        </div>
+      
 
       
       
@@ -512,7 +529,25 @@
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -520,6 +555,26 @@
         
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://www.xiaolei0808.com" target="_blank" title="xiaolei's Blog">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  xiaolei's Blog
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://yangxiaoju.github.io/" target="_blank" title="小菊爷的博客">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  小菊爷的博客
+                </a>
+              </span>
+            
           
         </div>
 
@@ -582,7 +637,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Muse
   </a>
 </div>
 
